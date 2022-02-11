@@ -1,0 +1,898 @@
+.real_flag {
+	background-position: center bottom!important;
+	background-repeat: no-repeat!important;
+	border-radius: 3px;
+	box-shadow: 0 0 7px -1px #d7d7ff inset;
+	display: inline-block;
+	height: 13px;
+	margin-right: 5px;
+	vertical-align: inherit;
+	width: 17px;
+}
+
+.content {
+	overflow: hidden;
+}
+
+.middleda {
+	display: block;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.middleda div {
+	margin-bottom: 3em;
+}
+
+body {
+	background-color: #F7F9FF;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Roboto';
+	position: relative;
+}
+
+body>main {
+	width: 90%;
+	max-width: 1600px;
+	margin: 4rem auto;
+}
+
+main .row {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.row .module {
+	background-color: white;
+	box-shadow: 0px 4px 15px rgba(36, 63, 133, 0.2);
+	border-radius: 5px;
+	width: 33%;
+	padding-right: 1%;
+	height: max-content;
+	position: relative;
+}
+
+.title-module {
+	background-color: #243F85;
+	color: white;
+	border-radius: 5px;
+	padding: 0.8rem 0.1rem;
+	text-align: center;
+}
+
+.title-module h2 {
+	margin: 0;
+}
+
+.data h2 {
+	color: #000000;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+
+
+.lastgames .firstteam:after,
+.lastgames .playeroff:after,
+.lastgames .playerbench:after {
+	content: "";
+	height: 34px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	display: inline-block;
+}
+
+.lastgames .draw:after,
+.lastgames .loss:after,
+.lastgames .victory:after {
+	z-index: -1;
+	width: 100%;
+}
+
+.lastgames .compet img {
+	max-width: 100%;
+	height: 20px;
+	vertical-align: top;
+}
+
+.lastgames .victory::after {
+	background-color: #5fe55f;
+}
+
+.lastgames .draw:after {
+	background-color: #dadada;
+}
+
+.lastgames .loss:after {
+	background-color: #ec3e3e;
+}
+
+.module {
+	background-color: white;
+	box-shadow: 0px 4px 15px rgba(36, 63, 133, 0.2);
+	border-radius: 5px;
+	margin: 2px;
+	height: max-content;
+	margin-bottom: 4rem;
+}
+
+.own {
+	color: #243F85;
+	font-weight: 600;
+}
+
+.module table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.intitule {
+	color: #5D5D5D;
+}
+
+.clublogo img {
+	width: auto;
+	max-width: 100px;
+	vertical-align: middle;
+}
+
+.player_technical {
+	display: flex;
+	align-items: end;
+	margin-bottom: 4rem;
+}
+
+.player_technical .contentPlayer {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.player_technical .contentPlayer .titlePlayer {
+	display: flex;
+	align-items: center;
+	height: 150px;
+}
+
+.player_technical .contentPlayer .titlePlayer h1 {
+	font-size: 60px;
+	color: #243F85;
+}
+
+.player_technical .contentPlayer .titlePlayer .numberPlayer {
+	color: rgba(215, 215, 255, 0.61);
+	font-size: 200px;
+	font-weight: bold;
+	margin-left: -5rem;
+	z-index: -1;
+}
+
+.player_technical .contentPlayer .titlePlayer .lastname {
+	text-transform: uppercase;
+}
+
+.player_technical .contentPlayer .club h2 {
+	color: #243F85;
+	margin: 0 0 1rem;
+}
+
+.player_technical .contentPlayer .club h2 .clublogo {
+	display: flex;
+	align-items: center;
+}
+
+.player_technical .contentPlayer .club h2 img {
+	margin-right: 0.5rem;
+}
+
+.player_technical .contentPlayer .infoPlayer {
+	padding: 1rem;
+	color: #243F85;
+	margin-bottom: 0;
+}
+
+.player_technical .contentPlayer .infoPlayer .line,
+.player_technical .contentPlayer .infoPlayer .linesecond {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+
+.player_technical .contentPlayer .infoPlayer .linesecond {
+	margin-top: 1rem;
+}
+
+.player_technical .contentPlayer .infoPlayer .line .data,
+.player_technical .contentPlayer .infoPlayer .linesecond .data {
+	width: 32.33%;
+}
+
+.player_technical .contentPlayer .infoPlayer .line .data:not(:first-child),
+.player_technical .contentPlayer .infoPlayer .linesecond .data:not(:first-child) {
+	border-left: 2px solid #243F85;
+	padding-left: 1rem;
+}
+
+.player_technical .contentPlayer .firstline,
+.player_technical .contentPlayer .secondline {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.player_technical .contentPlayer .firstline {
+	padding-bottom: 0.5rem;
+}
+
+.player_technical .contentPlayer .secondline a {
+	padding-right: 0.3rem;
+}
+
+.player_technical .contentPlayer .infoPlayer .line .title,
+.player_technical .contentPlayer .infoPlayer .linesecond .title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.player_technical a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.player_technical .photoPlayer {
+	width: 20%;
+	padding-left: 1rem;
+}
+
+.player_technical .photoPlayer ul {
+	padding-left: 0;
+	margin: 0;
+	border: 2px solid #243F85;
+	border-radius: 5px;
+}
+
+.player_technical .photoPlayer li.subphoto {
+	list-style: none;
+	position: relative;
+}
+
+.player_technical .photoPlayer .subphoto img {
+	width: 100%;
+}
+
+.currentseasonstats .content {
+	padding: 2rem;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #243F85;
+	text-transform: uppercase;
+}
+
+.currentseasonstats .s_impactgoals,
+.currentseasonstats .s_impactassists,
+.currentseasonstats .s_played_matches {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+	width: 20%;
+	margin-bottom: 2rem;
+}
+
+.currentseasonstats .s_impactgoals,
+.currentseasonstats .s_impactassists {
+	border-right: 1px solid #243F85;
+}
+
+.currentseasonstats .s_impactgoals .number,
+.currentseasonstats .s_impactassists .number,
+.currentseasonstats .s_played_matches .number {
+	font-size: 30px;
+}
+
+.currentseasonstats .number1,
+.currentseasonstats .number2,
+.currentseasonstats .number3,
+.currentseasonstats .number4,
+.currentseasonstats .number5,
+.currentseasonstats .number6 {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.currentseasonstats .name1,
+.currentseasonstats .name3,
+.currentseasonstats .name5 {
+	height: 60px;
+}
+
+.currentseasonstats .name1,
+.currentseasonstats .name3,
+.currentseasonstats .number1,
+.currentseasonstats .number3 {
+	font-weight: bold;
+}
+
+.currentseasonstats .s_played_matches {
+	font-weight: bold;
+}
+
+.s_impactgoals span.number1 {
+	background-image: url(https://www.footballdatabase.eu/images/impactgoals.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.s_impactgoals span.number2 {
+	background-image: url(https://www.footballdatabase.eu/images/goals.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.s_impactassists span.number3 {
+	background-image: url(https://www.footballdatabase.eu/images/impactassists.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.s_impactassists span.number4 {
+	background-image: url(https://www.footballdatabase.eu/images/assists.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.playerposition {
+	display: flex;
+	margin: 0 auto 4rem;
+}
+
+.playerposition .field {
+	position: relative;
+}
+
+.playerposition table {
+	border-collapse: collapse;
+	margin-left: 1rem;
+	height: max-content;
+}
+
+.playerposition tr.postitle {
+	color: #243F85;
+	font-weight: bold;
+	border-bottom: 2px solid #243F85;
+}
+
+.playerposition .postitle:not(tr:first-child) td:first-child {
+	padding-top: 1rem;
+}
+
+.playerposition tr.mainposition {
+	color: #E92A4F;
+}
+
+.playerposition tr.otherpositions {
+	color: #1479CF;
+}
+
+.playerposition tr.oldpositions {
+	color: #5D5D5D;
+}
+
+.playerposition td.number {
+	text-align: right;
+}
+
+.playerposition td.fromdate {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.skillssummary .skill {
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.skillssummary .skill .avgnote {
+	display: flex;
+	justify-content: center;
+}
+
+.skillssummary .skill.general {
+	border-bottom: 2px solid #D7D7FF;
+}
+
+.skillssummary .skill .intitule {
+	text-transform: uppercase;
+	color: #243F85;
+}
+
+.skillssummary .skill .intitule,
+.skillssummary .skill .avgnote {
+	width: 50%;
+}
+
+.skillssummary .general .result {
+	background-color: #E92A4F;
+	color: white;
+	text-align: center;
+	padding: 0.3rem 0.5rem;
+	border-radius: 5px;
+	width: 50%;
+}
+
+.skillssummary .result {
+	color: #E92A4F;
+}
+
+.lastgames table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.lastgames table th {
+	background-color: #F5F5F5;
+}
+
+.lastgames table tr {
+	height: 45px;
+	border-bottom: 2px solid #D9D9D9;
+}
+
+.lastgames table td {
+	text-align: center;
+	border: 2px solid #D9D9D9;
+	padding: 0 0.3rem;
+}
+
+.lastgames td.game1 {
+	text-align: right;
+}
+
+.lastgames td.game2 {
+	text-align: left;
+}
+
+.lastgames table td.date {
+	padding-left: 1rem;
+}
+
+.lastgames td.victory,
+.lastgames td.loss,
+.lastgames td.draw {
+	width: 12%;
+}
+
+.lastgames tr.line .owngoals {
+	color: #1479CF;
+}
+
+.lastgames .score2 {
+	display: none;
+}
+
+.lastgames svg {
+	height: 30px;
+}
+
+.lastgames .victory a,
+.lastgames .draw a,
+.lastgames .loss a {
+	border-radius: 5px;
+	padding: 0.3rem 0.8rem;
+}
+
+.lastgames .victory a {
+	background-color: #1D8DD7;
+	color: white;
+}
+
+.lastgames .draw a {
+	background-color: #D9D9D9;
+}
+
+.lastgames .loss a {
+	background-color: #E92A4F;
+	color: white;
+}
+
+.lastgames .playeroff {
+	background-color: #F0C1CB;
+}
+
+.lastgames .playerbench {
+	background-color: #D9D9D9;
+}
+
+.lastgames .firstteam {
+	background-color: #DDF6E4;
+}
+
+.lastgames .date_short {
+	display: none;
+}
+
+.lastgames a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.lastgames .legendMinute {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2rem 1rem;
+}
+
+.lastgames .legendMinute .item {
+	margin-right: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.lastgames .legendMinute .carre {
+	margin-right: 0.5rem;
+	width: 37px;
+	height: 27px;
+}
+
+.lastgames .legendMinute .cgreen {
+	background-color: #DDF6E4;
+}
+
+.lastgames .legendMinute .cgray {
+	background-color: #D9D9D9;
+}
+
+.lastgames .legendMinute .cred {
+	background-color: #F0C1CB;
+}
+
+.lastgames table .header-lastgames.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+
+/*! CSS Used from: https://www.footballdatabase.eu/responsive.css?v=1.59 */
+
+@media screen and (max-width: 1200px) {
+	.player_technical .contentPlayer .titlePlayer,
+	.player_technical .contentPlayer .club,
+	.player_technical .contentPlayer .infoPlayer {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 1160px) {
+	body>main {
+		width: 100%;
+	}
+	main .module {
+		max-width: 90%;
+		margin: auto;
+		margin-bottom: 4rem;
+	}
+	.row .module {
+		width: 33%;
+		margin: 1rem 1rem 4rem 0;
+	}
+	main .row {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width:995px) {
+	.topstory {
+		width: 100%;
+	}
+	.lastgames {
+		width: 100%;
+	}
+	.lastgames table td {
+		padding: 0;
+	}
+	.lastgames table .header-lastgames.sticky {
+		top: 0px;
+	}
+}
+
+@media screen and (max-width:900px) {
+	main>.row {
+		display: initial;
+	}
+	main .row {
+		display: initial;
+	}
+	.row .module {
+		margin: auto;
+		width: 90%;
+		padding-bottom: 1rem;
+		margin-bottom: 3rem;
+	}
+	.playerposition {
+		justify-content: center;
+	}
+	.player_technical {
+		flex-direction: column-reverse;
+	}
+	.player_technical .contentPlayer {
+		width: 100%;
+		margin-top: 2rem;
+	}
+	.player_technical .photoPlayer {
+		margin: auto;
+		padding-left: 0;
+		width: 50%;
+	}
+	.player_technical .contentPlayer .titlePlayer,
+	.player_technical .contentPlayer .club {
+		width: max-content;
+	}
+	.lastgames table td.date {
+		display: none;
+	}
+	.lastgames .date_short {
+		display: revert;
+	}
+	.lastgames table .tour {
+		display: none;
+	}
+	.lastgames table td.date {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width:780px) {
+	.currentseasonstats .s_impactgoals,
+	.currentseasonstats .s_impactassists,
+	.currentseasonstats .s_played_matches {
+		width: 26%;
+	}
+}
+
+@media screen and (max-width:720px) {
+	.player_technical {
+		width: 97%;
+	}
+	.lastgames .minutes {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:670px) {
+	.lastgames .date {
+		font-size: 12px;
+	}
+	.lastgames .cards {
+		display: none;
+	}
+	.lastgames .competition {
+		font-size: 12px;
+	}
+	.lastgames .line {
+		overflow: hidden;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (max-width:610px) {
+	.player_technical .contentPlayer .infoPlayer .line,
+	.player_technical .contentPlayer .infoPlayer .linesecond {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.player_technical .contentPlayer .infoPlayer .line .data {
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+	.player_technical .contentPlayer .infoPlayer .linesecond .data {
+		width: 100%;
+		padding-top: 1rem;
+	}
+	.player_technical .contentPlayer .infoPlayer .line .data:not(:first-child),
+	.player_technical .contentPlayer .infoPlayer .linesecond .data:not(:first-child) {
+		border-left: none;
+		padding-left: 0;
+	}
+	.player_technical .contentPlayer .infoPlayer .line .data,
+	.player_technical .contentPlayer .firstline {
+		padding-bottom: 0;
+	}
+	.player_technical .contentPlayer .infoPlayer .line .data div,
+	.player_technical .contentPlayer .infoPlayer .line .data:last-child,
+	.player_technical .contentPlayer .infoPlayer .linesecond .data {
+		padding-top: 0.5rem;
+	}
+	.player_technical .contentPlayer .infoPlayer .linesecond {
+		margin-top: 0;
+	}
+	.player_technical .contentPlayer .titlePlayer h1 {
+		font-size: 45px;
+	}
+	.lastgames .competition,
+	.lastgames .compet {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.lastgames table {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:575px) {
+	.currentseasonstats .content {
+		padding: 1rem;
+	}
+	.currentseasonstats .s_played_matches {
+		font-weight: bold;
+		width: 100%;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.currentseasonstats .s_played_matches span.name {
+		height: auto;
+	}
+	.s_played_matches .number,
+	.s_played_matches .name {
+		width: 50%;
+	}
+	.currentseasonstats .s_impactgoals,
+	.currentseasonstats .s_impactassists {
+		width: 38%;
+	}
+	.currentseasonstats .s_impactassists {
+		border-right: none;
+	}
+	.currentseasonstats div.content div:last-child {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: inherit;
+		align-items: center;
+	}
+	.currentseasonstats div.content div:last-child .name {
+		height: auto;
+		margin: 0 1rem;
+	}
+	.currentseasonstats div.content div:nth-child(2) {
+		border-right: none;
+	}
+	.player_technical .contentPlayer .titlePlayer,
+	.player_technical .contentPlayer .club {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width:520px) {
+	.row .module {
+		width: 90%;
+	}
+	.lastgames .date_short {
+		font-size: 12px;
+	}
+	.lastgames svg {
+		height: 20px;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.lastgames .firstteam,
+	.lastgames .playeroff,
+	.lastgames .playerbench {
+		font-size: 10px;
+	}
+	.lastgames .draw,
+	.lastgames .loss,
+	.lastgames .victory {
+		font-size: 10px;
+		width: 25px;
+	}
+	.lastgames .score {
+		font-size: 12px;
+	}
+	.lastgames .game2,
+	.lastgames .game1 {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:460px) {
+	.lastgames .owngoals {
+		display: none;
+	}
+	.lastgames .draw,
+	.lastgames .loss,
+	.lastgames .victory {
+		white-space: nowrap;
+	}
+}
+
+@media screen and (max-width:435px) {
+	.skillssummary .skill {
+		flex-wrap: wrap;
+	}
+	.skillssummary .skill .intitule,
+	.skillssummary .skill .avgnote {
+		width: 50%;
+		justify-content: end;
+	}
+}
+
+@media screen and (max-width:420px) {
+	.row .module {
+		width: 96%;
+		margin: auto;
+		margin-bottom: 3rem;
+	}
+	.player_technical .photoPlayer {
+		width: 60%;
+	}
+	.lastgames table .assists {
+		display: none;
+	}
+	.playerposition table {
+		margin-left: 0.5rem;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.lastgames table .goals {
+		display: none;
+	}
+}
+
+@media screen and (max-width:352px) {
+	.lastgames table .minutes,
+	.lastgames .legendMinute {
+		display: none;
+	}
+	.lastgames table td {
+		border: none;
+	}
+	.lastgames td.victory,
+	.lastgames td.loss,
+	.lastgames td.draw {
+		padding: 0 0.3rem;
+	}
+	.lastgames .draw,
+	.lastgames .loss,
+	.lastgames .victory {
+		font-size: 12px;
+	}
+	.currentseasonstats .s_impactgoals,
+	.currentseasonstats .s_impactassists,
+	.currentseasonstats .s_played_matches {
+		padding: 0 0.5rem;
+	}
+}
+
+
+

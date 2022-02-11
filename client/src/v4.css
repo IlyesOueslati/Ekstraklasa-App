@@ -1,0 +1,286 @@
+/*! CSS Used from: https://www.footballdatabase.eu/v4.css?v=0.92 */
+
+
+.container{
+    padding-top: 50px;
+    color: black;
+}
+
+
+.real_flag{
+    background-position:center bottom!important;
+    background-repeat:no-repeat!important;
+    border-radius:3px;
+    box-shadow:0 0 7px -1px #d7d7ff inset;
+    display:inline-block;
+    height:13px;
+    margin-right:5px;
+    vertical-align:inherit;
+    width:17px;
+}
+ body{
+    background-color:#F7F9FF;
+    margin:0;
+    font-size:16px;
+    font-family:'Roboto';
+    position:relative;
+}
+ body > main{
+    width:100%;
+    max-width:1600px;
+    margin:4rem auto;
+}
+ .module{
+    background-color:white;
+    box-shadow:0px 4px 15px rgba(36, 63, 133, 0.2);
+    border-radius:5px;
+    margin:0;
+    height:max-content;
+    margin-bottom:4rem;
+}
+ .row-flexcolumns{
+    margin-top:2rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+ .row-flexcolumns a{
+    text-decoration:none;
+    color:inherit;
+}
+ .module table{
+    width:100%;
+    border-collapse:collapse;
+}
+ .intitule{
+    color:#5D5D5D;
+}
+ .technical.module{
+    display:flex;
+    align-items:center;
+    padding:1.5rem;
+    background-image:url(https://test2.footballdatabase.eu/images/bgheader-pageclub.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:40% 100%;
+}
+ .technical .clublogo{
+    width:20%;
+    text-align:center;
+}
+ .clublogo img{
+    width:auto;
+    max-width:100%;
+    vertical-align:middle;
+}
+ .technical .information-club{
+    width:40%;
+    padding-left:1rem;
+}
+ .technical .information-club .info-shirt{
+    display:flex;
+    justify-content:space-between;
+}
+ .technical .information-club h1{
+    margin:0.5rem 0;
+}
+ .technical .information-club .info-season{
+    font-size:20px;
+    font-weight:bold;
+}
+ .technical .information-club .info .intitule{
+    margin-right:7px;
+}
+ .technical .information-club .info div{
+    margin-bottom:0.3rem;
+}
+ .technical .information-club .info div a{
+    color:inherit;
+    text-decoration:none;
+}
+ .technical .information-club .info .official-website{
+    text-decoration:underline;
+}
+ .club_roster{
+    margin-bottom:4rem;
+}
+ .row-flexcolumns .card-player{
+    background-color:white;
+    box-shadow:0px 4px 15px rgba(36, 63, 133, 0.2);
+    width:23%;
+    margin:0 1% 2%;
+    border-radius:5px;
+    font-size:14px;
+}
+ .row-flexcolumns .card-player .headband-player{
+    background-color:#243F85;
+    color:white;
+    border-radius:5px;
+    display:flex;
+    position:relative;
+    height:132px;
+}
+ .row-flexcolumns .card-player .headband-player .picture{
+    width:27%;
+    display:flex;
+    align-items:center;
+    margin-top:2px;
+    margin-left:2px;
+}
+ .row-flexcolumns .card-player .headband-player .picture a img{
+    width:100%;
+    height:auto;
+    border-radius:5px;
+    max-height:129px;
+}
+ .row-flexcolumns .card-player .headband-player .general-info{
+    width:73%;
+    padding:0.7rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+ .row-flexcolumns .card-player .headband-player .general-info .name{
+    font-size:18px;
+    margin:0 0 0.2rem;
+}
+ .row-flexcolumns .card-player .headband-player .general-info .position{
+    margin:0 0 0.7rem;
+}
+ .row-flexcolumns .card-player .headband-player .general-info .country{
+    margin:0 0 0.3rem;
+}
+ .row-flexcolumns .card-player .headband-player .general-info .arrivedAt{
+    margin:0;
+}
+ .row-flexcolumns .card-player .caracteristic{
+    padding:0.3rem 0.7rem 0.7rem;
+    border-bottom:2px solid #D9D9D9;
+    min-height:98px;
+}
+ .row-flexcolumns .card-player .caracteristic table,.row-flexcolumns .card-player .stats-player table{
+    width:100%;
+}
+ .row-flexcolumns .card-player .stats-player table{
+    min-height:335px;
+}
+ .row-flexcolumns .card-player .caracteristic table tr td,.row-flexcolumns .card-player .stats-player table tr td{
+    padding-bottom:0.3rem;
+}
+ .row-flexcolumns .card-player .caracteristic table tr .info-caract,.row-flexcolumns .card-player .stats-player table tr .info-caract{
+    text-align:right;
+}
+ .row-flexcolumns .card-player .view-stats{
+    text-align:center;
+    cursor:pointer;
+}
+ .row-flexcolumns .card-player .view-stats p{
+    color:#243F85;
+    margin:0.5rem 0 0.2rem;
+}
+ .row-flexcolumns .card-player .view-stats .icon,.row-flexcolumns .card-player .stats-player .icon{
+    background-image:url(https://www.footballdatabase.eu/images/base/img-home.png);
+    background-position:-290px -59px;
+    display:inline-block;
+    height:14px;
+    width:20px;
+}
+ .row-flexcolumns .card-player .stats-player{
+    padding:0.7rem;
+    display:none;
+}
+ .row-flexcolumns .card-player .stats-player .hideStats{
+    text-align:center;
+    cursor:pointer;
+}
+ .row-flexcolumns .card-player .stats-player .hideStats .icon{
+    transform:rotate(180deg);
+}
+ .headband-player h3.name{
+    width:87%;
+}
+/*! CSS Used from: https://www.footballdatabase.eu/responsive.css?v=1.59 */
+ @media screen and (max-width: 1160px){
+     body > main{
+        width:100%;
+    }
+     main .module{
+        max-width:90%;
+        margin:auto;
+        margin-bottom:4rem;
+    }
+}
+ @media screen and (max-width: 1000px){
+     .row-flexcolumns .card-player{
+        width:31%;
+    }
+}
+ @media screen and (max-width:995px){
+     .topstory{
+        width:100%;
+    }
+}
+ @media screen and (max-width:800px){
+     .technical.module{
+        flex-direction:column;
+        background-image:none;
+    }
+     .technical .information-club{
+        width:100%;
+        margin:1rem 0;
+        padding-left:0;
+    }
+     .technical .information-club .name{
+        text-align:center;
+    }
+     .technical .information-club .info-shirt{
+        justify-content:center;
+    }
+}
+ @media screen and (max-width:670px){
+     .club_roster{
+        width:100%;
+    }
+     .row-flexcolumns .card-player{
+        width:47%;
+    }
+}
+ @media screen and (max-width:500px){
+     .club_roster td{
+        font-size:12px;
+    }
+     .technical .clublogo{
+        width:25%;
+    }
+     .row-flexcolumns .card-player .headband-player .picture{
+        width:20%;
+    }
+}
+ @media screen and (max-width:420px){
+     .row-flexcolumns .card-player .headband-player .picture{
+        display:none;
+    }
+     .row-flexcolumns .card-player .headband-player .general-info{
+        width:100%;
+    }
+     .row-flexcolumns .card-player .caracteristic{
+        font-size:12px;
+    }
+     .technical .information-club .info-shirt{
+        justify-content:space-between;
+    }
+}
+ @media screen and (max-width:352px){
+     .row-flexcolumns .card-player .headband-player .general-info .arrivedAt{
+        font-size:13px;
+    }
+}
+
+.overall {
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #63569b,#2600ff);
+}
